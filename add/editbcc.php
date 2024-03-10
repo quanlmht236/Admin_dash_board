@@ -1,6 +1,6 @@
 <!DOCTYPE html> <?php 
             include '../database/connect.php';
-            include '../' 
+         
             $macc = $_GET['updatecc'];
             $sql = "select * from bangchamcong where MaCC='$macc';";
             $result=mysqli_query($conn,$sql);
